@@ -1,0 +1,11 @@
+f = open("demofile.txt","r")
+print(f.read())
+print("\n")
+f = open("demofile.txt","r")
+print(f.read(5))
+print("\n")
+f = open("demofile.txt","r")
+print(f.readline())
+print("\n")
+for x in f:
+  print(x)
